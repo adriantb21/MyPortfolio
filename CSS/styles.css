@@ -1,1 +1,6 @@
-img{width: 50%h;height: 50%;display: flex;}
+img {width: 100px;height: 150px;display: flex;
+    display:block;
+        margin-right:auto;
+        margin-left:auto;
+        opacity: 90%;}
+    
