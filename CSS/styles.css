@@ -4,7 +4,8 @@
     margin: 0;}
 
   .container {position: block;
-        margin-left: 10px;
+              display: flex;
+              margin-left: 0px;
     }
 
     .h1 {
@@ -15,6 +16,7 @@
         border: 1px #f1f3ee;
         padding: 15px;
         font-size: 17pt;
+        color: crimson;
         font-family: 'Montserrat'}
         
     .h2 {
@@ -78,10 +80,24 @@
             position:absolute;
             left: 10px;
             width: 650px;
+            height: 00px;
             border: 1px #f1f3ee;
-            bottom: 10px;top: 1710px;
+            top: 1710px;
+          
             padding: 10px;
             font-size: 14pt;
+            font-family: 'Montserrat';
+          }
+
+          .footer {
+            position: fixed;
+            text-align: center;
+            background-color: rgb(34, 101, 163);
+            width: 100%;
+            bottom: 0px;
+            padding: 17px;
+            font-size: 10pt;
+            color: white;
             font-family: 'Montserrat';
           }
     
