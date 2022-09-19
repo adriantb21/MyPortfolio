@@ -46,45 +46,49 @@
           .about {
             position:absolute;
             left: 10px;
-            width: 650px;
+            width: 600px;
             border: 1px #f1f3ee;
             top: 650px;
             padding: 10px;
             font-size: 14pt;
+            text-align: justify;
             font-family: 'Montserrat';
           }
     
           .services {
             position:absolute;
             left: 10px;
-            width: 650px;
+            width: 600px;
             border: 1px #f1f3ee;
             top: 1050px;
             padding: 10px;
             font-size: 14pt;
+            text-align: justify;
             font-family: 'Montserrat';
           }
     
           .reviews {
             position:absolute;
             left: 10px;
-            width: 650px;
+            width: 600px;
             border: 1px #f1f3ee;
             top: 1450px;
             padding: 10px;
             font-size: 14pt;
+            text-align: justify;
             font-family: 'Montserrat';
           }
     
           .contacts {
             position:absolute;
             left: 10px;
-            width: 650px;
-            height: 00px;
+            width: 600px;
+            height: 700px;
             border: 1px #f1f3ee;
-            top: 1840px;
+            top: 1850px;
             padding: 10px;
             font-size: 14pt;
+            text-align: justify;
             font-family: 'Montserrat';
           }
 
