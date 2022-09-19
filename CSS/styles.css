@@ -59,7 +59,7 @@
             left: 10px;
             width: 650px;
             border: 1px #f1f3ee;
-            bottom: 10px;top: 980px;
+            top: 1050px;
             padding: 10px;
             font-size: 14pt;
             font-family: 'Montserrat';
@@ -70,7 +70,7 @@
             left: 10px;
             width: 650px;
             border: 1px #f1f3ee;
-            bottom: 10px;top: 1350px;
+            top: 1450px;
             padding: 10px;
             font-size: 14pt;
             font-family: 'Montserrat';
@@ -82,8 +82,7 @@
             width: 650px;
             height: 00px;
             border: 1px #f1f3ee;
-            top: 1710px;
-          
+            top: 1840px;
             padding: 10px;
             font-size: 14pt;
             font-family: 'Montserrat';
@@ -100,6 +99,8 @@
             color: white;
             font-family: 'Montserrat';
           }
+
+       
     
     span {text-decoration: underline;
     font-weight: lighter;font-size:22pt;}
