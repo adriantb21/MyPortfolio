@@ -3,3 +3,87 @@
 * { box-sizing: border-box;
     margin: 0;}
 
+    .container {position: block;margin-left: 10px;
+    }
+
+    .h1 {
+        position: absolute;
+        top: 50px;
+        left: 10px;
+        width: 500px;
+        border: 1px #f1f3ee;
+        padding: 15px;
+        font-size: 17pt;
+        font-family: 'Montserrat'}
+        
+    .h2 {
+            position: absolute;
+            left: 90px;
+            width: 250px;
+            bottom: 10px;top: 250px;
+            border: 1px #f1f3ee;
+            padding: 15px;
+            font-size: 15pt;
+            font-family: 'Montserrat';
+          }
+
+          .p1 {
+            position: absolute;
+            left: 14px;
+            width: 500px;
+            border: 1px #f1f3ee;
+            bottom: 10px;top: 350px;
+            padding: 15px;
+            font-size: 14pt;
+            font-family: 'Montserrat';
+          }
+    
+          .container {position: block;
+            }
+    
+          .about {
+            position:absolute;
+            left: 10px;
+            width: 650px;
+            border: 1px #f1f3ee;
+            bottom: 10px;top: 600px;
+            padding: 10px;
+            font-size: 14pt;
+            font-family: 'Montserrat';
+          }
+    
+          .services {
+            position:absolute;
+            left: 10px;
+            width: 650px;
+            border: 1px #f1f3ee;
+            bottom: 10px;top: 980px;
+            padding: 10px;
+            font-size: 14pt;
+            font-family: 'Montserrat';
+          }
+    
+          .reviews {
+            position:absolute;
+            left: 10px;
+            width: 650px;
+            border: 1px #f1f3ee;
+            bottom: 10px;top: 1350px;
+            padding: 10px;
+            font-size: 14pt;
+            font-family: 'Montserrat';
+          }
+    
+          .contacts {
+            position:absolute;
+            left: 10px;
+            width: 650px;
+            border: 1px #f1f3ee;
+            bottom: 10px;top: 1710px;
+            padding: 10px;
+            font-size: 14pt;
+            font-family: 'Montserrat';
+          }
+    
+    span {text-decoration: underline;
+    font-weight: 900;}
