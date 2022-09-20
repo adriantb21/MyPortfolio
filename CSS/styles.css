@@ -8,7 +8,7 @@
               margin-left: 0px;
     }
 
-   div.h1 {
+   .h1 {
         position: absolute;
         top: 50px;
         left: 10px;
@@ -16,7 +16,7 @@
         border: 1px #f1f3ee;
         padding: 15px;
         font-size: 17pt;
-        color: crimson;
+        color: black;
         font-family: 'Montserrat'}
         
     .h2 {
