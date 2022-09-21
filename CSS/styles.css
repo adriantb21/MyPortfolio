@@ -11,20 +11,23 @@
    .h1 {
         position: absolute;
         top: 50px;
-        left: 10px;
+        left: 70px;
         width: 500px;
         border: 1px #f1f3ee;
         padding: 15px;
         font-size: 17pt;
-        color: black;
+        color: rgb(3, 33, 61);
         font-family: 'Montserrat'}
         
-    .h2 {
+   .h2 {
             position: absolute;
-            left: 90px;
-            width: 220px;
-            top: 400px;
-            border: 1px #f1f3ee;
+            text-align: right;
+            left: 100px;
+            width:530px;
+            top: 530px;
+            border: 1px solid #f6be00;
+            background-color: #f6be00;
+            border-radius: 6px;
             padding: 15px;
             font-size: 11pt;
             font-family: 'Montserrat';
@@ -32,9 +35,11 @@
 
           .p1 {
             position: absolute;
-            left: 14px;
-            width: 500px;
-            border: 1px #f1f3ee;
+            left: 100px;
+            width: 300px;height: 220px;
+            border: 3px solid #f6be00;
+            border-radius: 5px;
+            text-align: center;
             top: 250px;
             padding: 15px;
             font-size: 18pt;
@@ -106,5 +111,5 @@
 
        
     
-    span {text-decoration: underline;
-    font-weight: lighter;font-size:22pt;}
+   /* span {text-decoration: underline;
+    font-weight: lighter;font-size:22pt;}*/
