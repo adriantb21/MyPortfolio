@@ -16,7 +16,7 @@
         border: 1px #f1f3ee;
         padding: 15px;
         font-size: 17pt;
-        color: rgb(3, 33, 61);
+        color: #25221b;
         font-family: 'Montserrat'}
         
    .h2 {
@@ -25,25 +25,24 @@
             left: 100px;
             width:530px;
             top: 530px;
-            border: 1px solid #f6be00;
-            background-color: #f6be00;
             border-radius: 6px;
             padding: 15px;
             font-size: 11pt;
+            background-image: linear-gradient(white,#f6be00);
             font-family: 'Montserrat';
           }
 
           .p1 {
             position: absolute;
             left: 100px;
-            width: 300px;height: 220px;
-            border: 3px solid #f6be00;
-            border-radius: 5px;
+            width: 300px;
+            height: 180px;
             text-align: center;
-            top: 250px;
+            top: 270px;
             padding: 15px;
-            color: rgb(3, 33, 61);
+            color:rgb(8, 8, 8);
             font-size: 18pt;
+          
             font-family: 'Montserrat';
           }
     
@@ -57,8 +56,10 @@
             top: 650px;
             padding: 10px;
             font-size: 14pt;
-            color: rgb(3, 33, 61);
+            color: black;
             text-align: justify;
+            border-radius: 5px;
+            background-image: linear-gradient(white,#f6be00);
             font-family: 'Montserrat';
           }
     
@@ -67,11 +68,13 @@
             left: 10px;
             width: 600px;
             border: 1px #f1f3ee;
-            top: 1050px;
+            top: 1100px;
             padding: 10px;
             font-size: 14pt;
-            color: rgb(3, 33, 61);
+            color: black;
             text-align: justify;
+            border-radius: 5px;
+            background-image: linear-gradient(white,#f6be00);
             font-family: 'Montserrat';
           }
     
@@ -80,10 +83,12 @@
             left: 10px;
             width: 600px;
             border: 1px #f1f3ee;
-            top: 1450px;
+            top: 1550px;
             padding: 10px;
             font-size: 14pt;
-            color: rgb(3, 33, 61);
+            color: black;
+            border-radius: 5px;
+            background-image: linear-gradient(white,#f6be00);
             text-align: justify;
             font-family: 'Montserrat';
           }
@@ -94,10 +99,12 @@
             width: 600px;
             height: 700px;
             border: 1px #f1f3ee;
-            top: 1850px;
+            top: 1950px;
             padding: 10px;
             font-size: 14pt;
-            color: rgb(3, 33, 61);
+            color: black;
+            border-radius: 5px;
+            background-image: linear-gradient(white,#f6be00);
             text-align: justify;
             font-family: 'Montserrat';
           }
