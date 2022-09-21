@@ -5,7 +5,7 @@
 
   .container {position: block;
               display: flex;
-            
+             /* margin-left: 0px;*/
     }
 
    .h1 {
@@ -42,6 +42,7 @@
             text-align: center;
             top: 250px;
             padding: 15px;
+            color: rgb(3, 33, 61);
             font-size: 18pt;
             font-family: 'Montserrat';
           }
@@ -56,6 +57,7 @@
             top: 650px;
             padding: 10px;
             font-size: 14pt;
+            color: rgb(3, 33, 61);
             text-align: justify;
             font-family: 'Montserrat';
           }
@@ -68,6 +70,7 @@
             top: 1050px;
             padding: 10px;
             font-size: 14pt;
+            color: rgb(3, 33, 61);
             text-align: justify;
             font-family: 'Montserrat';
           }
@@ -80,6 +83,7 @@
             top: 1450px;
             padding: 10px;
             font-size: 14pt;
+            color: rgb(3, 33, 61);
             text-align: justify;
             font-family: 'Montserrat';
           }
@@ -93,6 +97,7 @@
             top: 1850px;
             padding: 10px;
             font-size: 14pt;
+            color: rgb(3, 33, 61);
             text-align: justify;
             font-family: 'Montserrat';
           }
