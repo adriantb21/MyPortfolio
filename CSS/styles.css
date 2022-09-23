@@ -1,39 +1,41 @@
 
    
-* { box-sizing: border-box;
-    margin: 0;}
+* { 
+     box-sizing: border-box;
+     margin: 0;}
 
-  .container {position: block;
-              display: flex;
-             /* margin-left: 0px;*/
-    }
+    .container {
+                position: block;
+                display: flex;}
 
 
-    .topnav {text-align: center;
+    .topnav {
+      text-align: center;
       position: fixed;
       width: 100%;
       overflow: hidden;
       background-image: linear-gradient(rgb(34, 101, 163),rgb(112, 141, 168));
       padding: 12px;}
-.topnav a {color: #f2f2f2;
+
+    .topnav a {
+      color: #f2f2f2;
       text-align: center;
       padding: 20px 30px;
       text-decoration: none;
       font-size: 17px;
       font-family: 'Montserrat'}
-.topnav a:hover {
+
+    .topnav a:hover {
       background-image: linear-gradient(white,#f6be00);
       border-radius: 12px;
       color: black;}
-.topnav a.active {
+
+    .topnav a.active {
       background-image: linear-gradient(white,#f6be00);
       color: rgb(16, 16, 29);
       border-radius: 12px;}
 
-
-      
-
-   .h1 {
+    .h1 {
         position: absolute;
         top: 50px;
         left: 70px;
@@ -44,7 +46,7 @@
         color: #25221b;
         font-family: 'Montserrat'}
         
-   .h2 {
+     .h2 {
             position: absolute;
             text-align: right;
             left: 100px;
@@ -54,10 +56,9 @@
             padding: 15px;
             font-size: 11pt;
             background-image: linear-gradient(white,#f6be00);
-            font-family: 'Montserrat';
-          }
+            font-family: 'Montserrat';}
 
-          .p1 {
+      .p1 {
             position: absolute;
             left: 100px;
             width: 310px;
@@ -67,73 +68,66 @@
             padding: 15px;
             color:rgb(8, 8, 8);
             font-size: 18pt;
-            font-family: sans-serif;
-          }
+            font-family: sans-serif;}
     
-        
-    
-          .about {
+      .about {
             position:absolute;
             left: 10px;
             width: 600px;
             border: 1px #f1f3ee;
             top: 650px;
-            padding: 10px;
+            padding: 20px;
             font-size: 13pt;
             color: black;
             text-align: justify;
             border-radius: 5px;
             background-image: linear-gradient(white,#f6be00);
-            font-family: sans-serif;
-          }
+            font-family: sans-serif;}
     
-          .services {
+      .services {
             position:absolute;
             left: 10px;
             width: 600px;
             border: 1px #f1f3ee;
             top: 1100px;
-            padding: 10px;
+            padding: 20px;
             font-size: 13pt;
             color: black;
             text-align: justify;
             border-radius: 5px;
             background-image: linear-gradient(white,#f6be00);
-            font-family: sans-serif;
-          }
+            font-family: sans-serif;}
     
-          .reviews {
+      .reviews {
             position:absolute;
             left: 10px;
             width: 600px;
             border: 1px #f1f3ee;
             top: 1550px;
-            padding: 10px;
+            padding: 20px;
             font-size: 13pt;
             color: black;
             border-radius: 5px;
             background-image: linear-gradient(white,#f6be00);
             text-align: justify;
-            font-family: sans-serif;
-          }
+            font-family: sans-serif;}
     
-          .contacts {
+      .contacts {
             position:absolute;
             left: 10px;
             width: 600px;
             height: 650px;
             border: 1px #f1f3ee;
             top: 2070px;
-            padding: 10px;
+            padding: 20px;
             font-size: 13pt;
             color: black;
             border-radius: 5px;
             background-image: linear-gradient(white,#f6be00);
             text-align: justify;
-            font-family: sans-serif;
-          }
+            font-family: sans-serif;}
 
-          .footer {
+      .footer {
             position: fixed;
             text-align: center; 
             background-image: linear-gradient(rgb(34, 101, 163),rgb(112, 141, 168));
@@ -142,10 +136,8 @@
             padding: 17px;
             font-size: 11pt;
             color: white; 
-            font-family: 'Montserrat';
-          }
+            font-family: 'Montserrat';}
 
        
     
-   /* span {text-decoration: underline;
-    font-weight: lighter;font-size:22pt;}*/
+   
