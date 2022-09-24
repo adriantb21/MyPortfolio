@@ -2,7 +2,7 @@
    
 * { 
      box-sizing: border-box;
-     margin: 0;}
+     margin: 0px;}
 
     .container {
                 position: block;
@@ -11,7 +11,7 @@
 
     .topnav {
       text-align: center;
-      position:absolute ;
+      position:absolute;
       width: 100%;
       overflow: hidden;
       background-image: linear-gradient(rgb(34, 101, 163),rgb(112, 141, 168));
