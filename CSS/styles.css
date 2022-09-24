@@ -11,7 +11,7 @@
 
     .topnav {
       text-align: center;
-      position: fixed;
+      position:absolute ;
       width: 100%;
       overflow: hidden;
       background-image: linear-gradient(rgb(34, 101, 163),rgb(112, 141, 168));
