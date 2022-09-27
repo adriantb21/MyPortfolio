@@ -140,49 +140,49 @@
 
             @media screen and (max-width:600px)   
             {
-                  .h1 { 
-                        font-size: 15px;
-                        left: 10px; 
-                        width: 400px;
-                        top: 100px; 
-                        text-align: center;
-                        }
 
+                 .h1 { 
+                        font-size: 15px;
+                        left: 5px; 
+                        width: 200px;
+                        top: 50px; 
+                        text-align: center;}
+
+                  .p1 {
+                        left: 45px;
+                        width: 400px;
+                        text-align: center;
+                        top: 320px;
+                        padding: 15px;
+                        font-size: 14pt;}
+                             
                   .topnav {
-                        text-align: center;position: fixed;
-                        width: 100%;
-                        overflow: hidden;
-                        background-image: linear-gradient(rgb(34, 101, 163),rgb(112, 141, 168));
                         padding: 7px;}
 
                   .topnav a {
-                        color: #f2f2f2;
-                        text-align: center;
                         padding: 6px 10px;
-                        text-decoration: none;
-                        font-size: 14px;
-                       }
+                        font-size: 14px;}
 
                   .footer {
-                        
-                        text-align: center; 
-                        background-image: linear-gradient(rgb(34, 101, 163),rgb(112, 141, 168));
-                        width: 100%;
-                        bottom: 0px;
                         padding: 7px;
-                        font-size: 9pt;
-                        color: white; 
-                        font-family: 'Montserrat';}
+                        font-size: 9pt;}
 
                   .body  {
-                        background-image: url("images/pexels-royal-anwar-450212.JPG");
-                        margin-left: auto; margin-top: 200px;
-                        margin-right: auto;
-                        background-size: 50%;}
-
+                        background-size: 20px; }
+                        
                   .container {
                         margin-left: auto;
                         margin-right: auto;}
+
+                  .h2 {
+                        
+                        left: 80px;
+                        width:350px;
+                        top: 420px;
+                        border-radius: 6px;
+                        padding: 10px;
+                        font-size: 10pt;
+                       }
               
                         
             }
