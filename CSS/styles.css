@@ -175,14 +175,25 @@
                         margin-right: auto;}
 
                   .h2 {
-                        
                         left: 80px;
                         width:350px;
                         top: 420px;
                         border-radius: 6px;
                         padding: 10px;
-                        font-size: 10pt;
-                       }
+                        font-size: 10pt;}
+
+                  .about, .services, .reviews, .contacts {
+                         left: auto;
+                         width: 100%;}
+
+                         
+
+                        
+                        
+                               
+                       
+                       
+                       
               
                         
             }
