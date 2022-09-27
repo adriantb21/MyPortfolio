@@ -149,7 +149,7 @@
                         }
 
                   .topnav {
-                        text-align: center;
+                        text-align: center;position: fixed;
                         width: 100%;
                         overflow: hidden;
                         background-image: linear-gradient(rgb(34, 101, 163),rgb(112, 141, 168));
@@ -173,6 +173,17 @@
                         font-size: 9pt;
                         color: white; 
                         font-family: 'Montserrat';}
+
+                  .body  {
+                        background-image: url("images/pexels-royal-anwar-450212.JPG");
+                        margin-left: auto; margin-top: 200px;
+                        margin-right: auto;
+                        background-size: 50%;}
+
+                  .container {
+                        margin-left: auto;
+                        margin-right: auto;}
+              
                         
             }
 
