@@ -138,6 +138,47 @@
             color: white; 
             font-family: 'Montserrat';}
 
+      .input-grp {
+            margin-bottom: 30px;
+            position: relative;}
+
+      input, textarea { 
+            width: 100%;
+            padding: 5px;
+            outline: 0;
+            border: 1px solid rgb(33, 37, 37);
+            color: rgb(19, 17, 17);
+            background: transparent;
+            font-size: 13px;}
+
+      label {
+            height: 100%;
+            position: absolute;
+            left: 0;
+            top: 0;
+            padding: 5px;
+            color: rgb(19, 18, 18);
+            cursor: text;
+            transition: 0.2s;}
+
+      button {
+            padding: 5px 0;
+            color: black;
+            outline: none;
+            background: transparent;
+            border: 1px solid rgb(15, 14, 14);
+            width: 100%;
+            cursor: pointer;}
+
+      input:focus~label,
+      input:valid~label,
+      textarea:focus~label,
+      textarea:valid~label {
+            top: 30px;
+            font-size: 13px;
+      }
+
+
             @media screen and (max-width:600px)   
             {
 
