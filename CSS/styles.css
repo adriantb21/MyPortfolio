@@ -143,7 +143,7 @@
             position: relative;}
 
       input, textarea { 
-            width: 100%;
+            width: 100%;border-radius: 3px;
             padding: 5px;
             outline: 0;
             border: 1px solid rgb(33, 37, 37);
@@ -162,21 +162,26 @@
             transition: 0.2s;}
 
       button {
-            padding: 5px 0;
-            color: black;
+            padding: 6px ; margin-bottom: 40px;
+            color: black;border-radius: 5px;
             outline: none;
             background: transparent;
             border: 1px solid rgb(15, 14, 14);
-            width: 100%;
+            /* width: 100%; */
             cursor: pointer;}
 
       input:focus~label,
-      input:valid~label,
-      textarea:focus~label,
-      textarea:valid~label {
+      input:valid~label {
             top: 30px;
-            font-size: 13px;
-      }
+            font-size: 13px;}
+
+      .row {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;}
+
+      .row, .input-grp {
+            flex-basis: 48%;}
 
 
             @media screen and (max-width:600px)   
@@ -227,7 +232,7 @@
                          left: auto;
                          width: 100%;}
 
-                  .frm {}
+                  
 
       }
 
