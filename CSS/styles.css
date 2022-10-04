@@ -171,8 +171,10 @@
             cursor: pointer;}
 
       input:focus~label,
-      input:valid~label {
-            top: 30px;
+      input:valid~label,
+      textarea:focus~label,
+      textarea:valid~label {
+            top: -25px;
             font-size: 13px;}
 
       .row {
