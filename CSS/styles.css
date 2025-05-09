@@ -1,243 +1,276 @@
-
-   
-* { 
-     box-sizing: border-box;
-     margin: 0px;}
-
-    .container {
-                position: block;
-                display: flex;}
-
-
-    .topnav {
+* {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+  }
+  
+  body {
+      font-family: 'Montserrat', sans-serif;
+      background-color: #f4f4f4; /* A light, neutral background */
+      line-height: 1.6;
+      color: #333;
+  }
+  
+  .container {
+      max-width: 960px; /* Adjust as needed */
+      margin: 0 auto;
+      padding: 20px;
+  }
+  
+  /* Navigation */
+  .topnav {
+      background-image: linear-gradient(rgb(34, 101, 163), rgb(112, 141, 168));
+      padding: 15px 0;
       text-align: center;
-      position:absolute;
-      width: 100%;
-      overflow: hidden;
-      background-image: linear-gradient(rgb(34, 101, 163),rgb(112, 141, 168));
-      padding: 12px;}
-
-    .topnav a {
+      position: sticky; /* Keeps the nav bar at the top on scroll */
+      top: 0;
+      z-index: 100; /* Ensure it stays above other content */
+  }
+  
+  .topnav a {
       color: #f2f2f2;
-      text-align: center;
-      padding: 20px 30px;
+      padding: 14px 20px;
       text-decoration: none;
-      font-size: 17px;
-      font-family: 'Montserrat'}
-
-    .topnav a:hover {
-      background-image: linear-gradient(white,#f6be00);
-      border-radius: 12px;
-      color: black;}
-
-    .topnav a.active {
-      background-image: linear-gradient(white,#f6be00);
-      color: rgb(16, 16, 29);
-      border-radius: 12px;}
-
-    .h1 {
-        position: absolute;
-        top: 50px;
-        left: 70px;
-        width: 500px;
-        border: 1px #f1f3ee;
-        padding: 15px;
-        font-size: 17pt;
-        color: #25221b;
-        font-family: 'Montserrat'}
-        
-     .h2 {
-            position: absolute;
-            text-align: right;
-            left: 100px;
-            width:530px;
-            top: 530px;
-            border-radius: 6px;
-            padding: 15px;
-            font-size: 11pt;
-            background-image: linear-gradient(white,#f6be00);
-            font-family: 'Montserrat';}
-
-      .p1 {
-            position: absolute;
-            left: 100px;
-            width: 310px;
-            height: 180px;
-            text-align: center;
-            top: 270px;
-            padding: 15px;
-            color:rgb(8, 8, 8);
-            font-size: 18pt;
-            font-family: sans-serif;}
-    
-      .about {
-            position:absolute;
-            left: 10px;
-            width: 600px;
-            border: 1px #f1f3ee;
-            top: 650px;
-            padding: 20px;
-            font-size: 13pt;
-            color: black;
-            text-align: justify;
-            border-radius: 5px;
-            background-image: linear-gradient(white,#f6be00);
-            font-family: sans-serif;}
-    
-      .services {
-            position:absolute;
-            left: 10px;
-            width: 600px;
-            border: 1px #f1f3ee;
-            top: 1100px;
-            padding: 20px;
-            font-size: 13pt;
-            color: black;
-            text-align: justify;
-            border-radius: 5px;
-            background-image: linear-gradient(white,#f6be00);
-            font-family: sans-serif;}
-    
-      .reviews {
-            position:absolute;
-            left: 10px;
-            width: 600px;
-            border: 1px #f1f3ee;
-            top: 1550px;
-            padding: 20px;
-            font-size: 13pt;
-            color: black;
-            border-radius: 5px;
-            background-image: linear-gradient(white,#f6be00);
-            text-align: justify;
-            font-family: sans-serif;}
-    
-      .contacts {
-            position:absolute;
-            left: 10px;
-            width: 600px;
-            height: 500px;
-            border: 1px #f1f3ee;
-            top: 2070px;
-            padding: 20px;
-            font-size: 13pt;
-            color: black;
-            border-radius: 5px;
-            background-image: linear-gradient(white,#f6be00);
-            text-align: justify;
-            font-family: sans-serif;}
-
-      .footer {
-            position: fixed;
-            text-align: center; 
-            background-image: linear-gradient(rgb(34, 101, 163),rgb(112, 141, 168));
-            width: 100%;
-            bottom: 0px;
-            padding: 17px;
-            font-size: 11pt;
-            color: white; 
-            font-family: 'Montserrat';}
-
-      .input-grp {
-            margin-bottom: 30px;
-            position: relative;}
-
-      input, textarea { 
-            width: 100%;border-radius: 3px;
-            padding: 5px;
-            outline: 0;
-            border: 1px solid rgb(33, 37, 37);
-            color: rgb(19, 17, 17);
-            background: transparent;
-            font-size: 13px;}
-
-      label {
-            height: 100%;
-            position: absolute;
-            left: 0;
-            top: 0;
-            padding: 5px;
-            color: rgb(19, 18, 18);
-            cursor: text;
-            transition: 0.2s;}
-
-      button {
-            padding: 6px ; margin-bottom: 40px;
-            color: black;border-radius: 5px;
-            outline: none;
-            background: transparent;
-            border: 1px solid rgb(15, 14, 14);
-            width: 100px;
-            cursor: pointer;}
-
-      input:focus~label,
-      input:valid~label,
-      textarea:focus~label,
-      textarea:valid~label {
-            top: -25px;
-            font-size: 13px;}
-
-      .row {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;}
-
-      .row, .input-grp {
-            flex-basis: 48%;}
-
-
-            @media screen and (max-width:600px)   
-            {
-
-                 .h1 { 
-                        font-size: 15px;
-                        left: 5px; 
-                        width: 200px;
-                        top: 50px; 
-                        text-align: center;}
-
-                  .p1 {
-                        left: 45px;
-                        width: 400px;
-                        text-align: center;
-                        top: 320px;
-                        padding: 15px;
-                        font-size: 14pt;}
-                             
-                  .topnav {
-                        padding: 7px;}
-
-                  .topnav a {
-                        padding: 6px 10px;
-                        font-size: 14px;}
-
-                  .footer {
-                        padding: 7px;
-                        font-size: 9pt;}
-
-                  .body  {
-                        background-size: 20px; }
-                        
-                  .container {
-                        margin-left: auto;
-                        margin-right: auto;}
-
-                  .h2 {
-                        left: 80px;
-                        width:350px;
-                        top: 420px;
-                        border-radius: 6px;
-                        padding: 10px;
-                        font-size: 10pt;}
-
-                  .about, .services, .reviews, .contacts {
-                         left: auto;
-                         width: 100%;}
-
-                  
-
+      font-size: 1rem;
+      font-weight: bold;
+      transition: background-color 0.3s ease, color 0.3s ease;
+      border-radius: 8px;
+      margin: 0 5px;
+  }
+  
+  .topnav a:hover {
+      background-color: #f6be00;
+      color: #222;
+  }
+  
+  .topnav a.active {
+      background-color: #f6be00;
+      color: #222;
+  }
+  
+  /* Hero Section */
+  .hero {
+      background-image: url("../images/meSmile2.jpg"); /* Adjust path as needed */
+      background-size: cover;
+      background-position: center;
+      color: white;
+      text-align: center;
+      padding: 100px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  
+  .hero-content {
+      background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent overlay for better text readability */
+      padding: 30px;
+      border-radius: 10px;
+  }
+  
+  .hero h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+  }
+  
+  .hero h2 {
+      font-size: 1.5rem;
+      margin-bottom: 20px;
+      font-weight: 400;
+  }
+  
+  .hero h2 span {
+      font-weight: 700;
+      color: #f6be00;
+  }
+  
+  .hero p {
+      font-size: 1.1rem;
+  }
+  
+  .hero a {
+      color: #f6be00;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s ease;
+  }
+  
+  .hero a:hover {
+      color: white;
+  }
+  
+  /* About Section */
+  .about, .services, .reviews, .contacts {
+      padding: 40px 20px;
+      margin-bottom: 40px;
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about h3, .services h3, .reviews h3, .contacts h3 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+      color: rgb(34, 101, 163);
+      text-align: center;
+  }
+  
+  .about p {
+      font-size: 1.1rem;
+      line-height: 1.7;
+  }
+  
+  /* Services Section */
+  .services ul {
+      list-style: none;
+      padding-left: 0;
+  }
+  
+  .services li {
+      padding: 10px 0;
+      border-bottom: 1px solid #eee;
+  }
+  
+  .services li:last-child {
+      border-bottom: none;
+  }
+  
+  /* Reviews Section */
+  .reviews p {
+      font-size: 1.1rem;
+      margin-bottom: 20px;
+  }
+  
+  .review-form {
+      margin-top: 20px;
+  }
+  
+  .review-form .row {
+      display: flex;
+      gap: 20px;
+      margin-bottom: 20px;
+  }
+  
+  .review-form .input-grp {
+      flex: 1;
+      position: relative;
+  }
+  
+  .review-form input, .review-form textarea {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      outline: none;
+      font-size: 1rem;
+  }
+  
+  .review-form label {
+      position: absolute;
+      left: 10px;
+      top: 10px;
+      color: #777;
+      pointer-events: none;
+      transition: 0.2s ease-in-out;
+  }
+  
+  .review-form input:focus + label,
+  .review-form input:valid + label,
+  .review-form textarea:focus + label,
+  .review-form textarea:valid + label {
+      top: -10px;
+      font-size: 0.8rem;
+      color: rgb(34, 101, 163);
+      background-color: white;
+      padding: 0 5px;
+  }
+  
+  .review-form button {
+      background-color: #f6be00;
+      color: #222;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 1rem;
+      transition: background-color 0.3s ease;
+  }
+  
+  .review-form button:hover {
+      background-color: #e0a800;
+  }
+  
+  /* Contacts Section */
+  .contacts p {
+      font-size: 1.1rem;
+      line-height: 1.7;
+      text-align: center;
+  }
+  
+  .contacts a {
+      color: rgb(34, 101, 163);
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s ease;
+  }
+  
+  .contacts a:hover {
+      color: #0056b3;
+  }
+  
+  /* Footer */
+  .footer {
+      background-image: linear-gradient(rgb(34, 101, 163), rgb(112, 141, 168));
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+      font-size: 0.9rem;
+      position: static; /* Changed to static for better flow */
+      bottom: 0;
+      width: 100%;
+  }
+  
+  /* Back to Top Link */
+  .back-to-top {
+      color: rgb(34, 101, 163);
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s ease;
+  }
+  
+  .back-to-top:hover {
+      color: #0056b3;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+      .container {
+          padding: 15px;
       }
-
-       
-    
-   
+  
+      .topnav a {
+          padding: 10px 15px;
+          font-size: 0.9rem;
+          margin: 0 3px;
+      }
+  
+      .hero {
+          padding: 80px 15px;
+      }
+  
+      .hero h1 {
+          font-size: 2rem;
+      }
+  
+      .hero h2 {
+          font-size: 1.3rem;
+      }
+  
+      .about p, .services li, .reviews p, .contacts p {
+          font-size: 1rem;
+      }
+  
+      .review-form .row {
+          flex-direction: column;
+          gap: 10px;
+      }
+  }
