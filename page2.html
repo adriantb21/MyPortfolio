@@ -6,23 +6,72 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Titillium+Web:wght@700&display=swap"
-                       rel="stylesheet">
-    <title>Webpage2Reviews</title>
-    <link rel="stylesheet" href="CSS/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Titillium+Web:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Adrian Badana | Reviews</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        .reviews-page {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 100px 20px;
+            background: linear-gradient(to bottom, white, var(--secondary));
+        }
+        
+        .reviews-page h1 {
+            font-size: 2.5rem;
+            margin-bottom: 30px;
+            color: var(--dark);
+        }
+        
+        .reviews-page p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+            max-width: 600px;
+        }
+        
+        .reviews-page a {
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            display: inline-block;
+            margin-top: 20px;
+        }
+        
+        .reviews-page a:hover {
+            color: #1d4ed8;
+            transform: translateX(-5px);
+        }
+        
+        .reviews-page a i {
+            margin-right: 8px;
+        }
+        
+        @media (max-width: 768px) {
+            .reviews-page h1 {
+                font-size: 2rem;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .reviews-page h1 {
+                font-size: 1.8rem;
+            }
+        }
+    </style>
 </head>
 <body>
-    <h1>Reviews and testimonials</h1><br>
-    <p>There were no comment/s yet posted as of the moment.... </p><br><br><br>
-    <p>go back to <a href="index.html"> Home</a> page </p>
-    <style>
-        body  {
-                background-image: linear-gradient(white,#f6be00);
-                background-attachment: fixed;
-                background-size: 100%;
-                margin-top: 10px;
-                margin-left: 20px;
-                font-family:sans-serif, 'Montserrat','Titillium Web' ;}
-    </style>
+    <div class="reviews-page">
+        <div class="container">
+            <h1>Reviews and Testimonials</h1>
+            <p>There are no comments yet posted at this time. Check back later or be the first to leave a review!</p>
+            <a href="index.html"><i class="fas fa-arrow-left"></i> Back to Home Page</a>
+        </div>
+    </div>
 </body>
 </html>
