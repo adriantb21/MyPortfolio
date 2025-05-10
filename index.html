@@ -8,115 +8,94 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Titillium+Web:wght@700&display=swap"
                        rel="stylesheet">
-    <script src="https://kit.fontawesome.com/ac1dea9f11.js" crossorigin="anonymous"></script>                   
+    <script src="https://kit.fontawesome.com/ac1dea9f11.js" crossorigin="anonymous"></script>
     <title>MyPortfolio</title>
     <link rel="stylesheet" href="CSS/styles.css">
 </head>
+<body>
+    <div class="container">
+        <nav class="topnav">
+            <a class="active" href="#home">Home</a>
+            <a href="#about">About Me</a>
+            <a href="#services">Services</a>
+            <a href="#reviews">Reviews</a>
+            <a href="#contacts">Contacts</a>
+        </nav>
 
-   
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Transform your website into what's perfect for you.</h1>
+                <h2><span>I'm Adrian,</span> web developer</h2>
+                <p>"Let's do it your way. If you're decided now or just wanted to inquire more,
+                    contact me <a href="#contacts">here</a>."</p>
+            </div>
+        </section>
 
-  <div class="container">
+        <section id="about" class="about">
+            <h3>About Me</h3>
+            <p>I'm Adrian Tiu Badana, a graduate of Bachelor of Science in Computer Science. I'm an innovative, task-driven professional with
+                experience in web design and development across diverse industries. Equipped with a record of success in
+                consistently identifying and providing the technological needs of companies through ingenious innovation.
+                Proficient in developing databases, creating user interfaces and testing codes, troubleshooting simple or
+                complex issues, and implementing new features based on user feedback.
+                I am also a creative designer and developer, who aims to work with small businesses and marginalized communities
+                to bring their passions to life. I offer both design and development services of web applications or websites.
+                <br><br>
+                <a href="#home" class="back-to-top"> &#8678; Back to top</a></p>
+        </section>
 
-    <div class="topnav">
-      <a class="active" href="#home">Home</a>
-      <a href="#about">About me</a>
-      <a href="#services">Services</a>
-      <a href="#reviews">Reviews</a>
-      <a href="#contacts">Contacts</a>
+        <section id="services" class="services">
+            <h3>Services</h3>
+            <ul>
+                <li>Full-Stack Web Development Services</li>
+                <li>E-commerce Applications</li>
+                <li>Custom Web Applications</li>
+                <li>Content Management Systems</li>
+                <li>QA and Testing</li>
+                <li>Web Support and Maintenance</li>
+            </ul>
+            <p><a href="#home" class="back-to-top"> &#8678; Back to top</a></p>
+        </section>
+
+        <section id="reviews" class="reviews">
+            <h3>Reviews</h3>
+            <p>Please leave your comments below for testimonials or reviews about me or the services that have
+                rendered to you. Do you like to see other comments, click <a href="page2.html">here.</a> </p><br><br>
+
+            <form action="https://formsubmit.co/adriantb021@gmail.com" method="POST" class="review-form">
+                <div class="row">
+                    <div class="input-grp">
+                        <input type="text" id="name" required>
+                        <label for="name"><i class="fas fa-user"></i> Please enter your name</label>
+                    </div>
+
+                    <div class="input-grp">
+                        <input type="email" id="email" required>
+                        <label for="email"><i class="fas fa-envelope"></i> Your email</label>
+                    </div>
+                </div>
+
+                <div class="input-grp">
+                    <textarea id="message" rows="8" required></textarea>
+                    <label for="message"><i class="fas fa-comments"></i> Your message</label>
+                </div>
+
+                <button type="submit">Submit <i class="fas fa-paper-plane"></i></button>
+            </form>
+
+            <p><a href="#home" class="back-to-top"> &#8678; Back to top</a></p>
+        </section>
+
+        <section id="contacts" class="contacts">
+            <h3>My Contacts</h3>
+            <p><br><a href="mailto:adriantb021@gmail.com">Email me here</a> or </br></p><br>
+            <p>Call/text to +63 926 441 0262<br><br><br><br></p>
+            <p><a href="#home" class="back-to-top"> &#8678; Back to top</a></p>
+        </section>
+
+        <footer class="footer">
+            <p>This website is for educational requirement only. No copyright infringement intended!</p>
+        </footer>
     </div>
-      <a id="home">
-
-        <style>
-          body  {
-            background-image: url("images/meSmile2.jpg");
-            background-repeat: no-repeat;
-            background-attachment:fixed;
-            background-size: 100%;
-            font-family: 'Titillium Web', sans-serif, 'Montserrat';}
-      </style>
-
-
-  <div class="h1">
-    <h1>Transform your website into what's perfect for you.</h1>
-  </div>
-
-  <div class="h2">
-  <h2><span> I'm ADRIAN, </span> web developer</h2>
-  </div>
-
-   <div class="p1">
-    <p>"Let's do it your way. If you're decided now or just wanted to inquire more, 
-      contact me <a href="#contacts">here</a>."</p>
-  </div>
-
-  <div class="about">
-     <h3 id="about">About me</h3><br>
-    <p>I'm Adrian Tiu Badana, a graduate of Bachelor of Science in Computer Science. I'm innovative, task-driven professional with 
-      experience in web design and development across diverse industries. Equipped with a record of success in 
-      consistently identifying and providing the technological needs of companies through ingenious innovation. 
-      Proficient in developing databases, creating user interfaces and testing codes, troubleshooting simple or
-       complex issues, and implementing new features based on user feedback.
-      I am also a creative designer and developer, who aims to work with small businesses and marginalized communities 
-      to bring their passions to life. I offer both design and development services of web applications or websites.
-      <br><br>
-      <a href="#home"> &#8678;back to top</a></p> 
-  </div>
-
-  <div class="services">
-    <h3 id="services">Services</h3><br>
-    <p>1.	Full-Stack Web Development Services <br><br></p>
-       2.	Ecommerce Applications <br><br></p>
-       3.	Custom Web Applications <br><br></p>
-       4.	Content Management Systems <br><br></p>
-       5.	QA and Testing <br><br></p>
-       6.	Web Support and Maintenance <br><br></p>
-    <p><a href="#home"> &#8678;back to top</a></br></p>
-   </div>
-
-   <div class="reviews">
-    <h3 id="reviews">Reviews</h3><br>
-    <p>Please leave your comments below for testimonials or reviews about me or the services that has 
-      rendered to you. Do you like to see other comments, click <a href="page2.html">here.</a> </p><br><br>
-
-      
-      
-        <form action="https://formsubmit.co/adriantb021@gmail.com" method="POST">
-        <div class="row"> 
-              <div class="input-grp"> 
-                  <input type="text" id="name" required>
-                  <label for="name"><i class="fas fa-user"></i>Please enter your name</label>
-              </div>
-  
-              <div class="input-grp">
-                  <input type="text" id="email" required>
-                  <label for="email"><i class="fas fa-envelope"></i>Your email</label>
-              </div>
-        </div>
-
-              <div class="input-grp"> 
-                  <textarea id="message" rows="8"required></textarea>
-                  <label for="message"><i class="fas fa-comments"></i>Your message</label>
-              </div>
-        
-              <button type="submit">Submit<i class="fas fa-paper-plane"></i> </button>
-        </form>
-      
-      <p><a href="#home"> &#8678;back to top</a>
-         
-      </div>
-
-     <div class="contacts">
-       <h3 id="contacts">My contacts</h3>
-       <p><br><a href="mailto:adriantb021@gmail.com">Email me here</a> or </br></p><br>
-       <p>Call/text to +63 926 441 0262<br><br><br><br></p>
-       <p><a href="#home"> &#8678;back to top</a></br></p>
-     </div>
-
-
-  <div class="footer">
-    <p>This website is for educational requirement only. No copyright infringement intended!</p>
-  </div>
-
-</div>
 </body>
 </html>
