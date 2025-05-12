@@ -176,19 +176,32 @@ section h3::after {
     border-radius: 2px;
 }
 
-/* About Section */
-.about {
+/* About Section */ 
+ .about {
     background-color: white;
-    background: url('../images/meSmile2.jpg') no-repeat center center/cover;
-}
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/aboutMe.JPG') no-repeat center left/contain;
+    /* background:  url('../images/aboutMe.JPG') no-repeat center center/contain; */
 
-.about p {
+    color: white;
+    text-align: center;
+    padding: 200px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; 
+   } 
+    
+
+    .about p {
     max-width: 800px;
     margin: 0 auto;
     text-align: justify;
     font-size: 1.1rem;
     line-height: 1.8;
-}
+} 
+
+
 
 /* Services Section */
 .services {
@@ -315,8 +328,13 @@ button i {
 
 /* Contacts Section */
 .contacts {
-    background-color: #f1f5f9;
+    background-color: #2f3031;
     text-align: center;
+
+    /* background-color: rgb(175, 58, 58); */
+    background:  url('../images/meSmile2.jpg') no-repeat center left/contain;
+    color: rgb(53, 50, 50);
+
 }
 
 .contacts p {
