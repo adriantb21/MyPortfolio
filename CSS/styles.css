@@ -182,7 +182,7 @@ section h3::after {
     background:  url('../images/aboutMe1.jpg') no-repeat center left/contain;
     /* background:  url('../images/aboutMe.JPG') no-repeat center center/contain; */
 
-    color: white;
+    color: black;
     text-align: center;
     padding: 200px 20px;
     display: flex;
