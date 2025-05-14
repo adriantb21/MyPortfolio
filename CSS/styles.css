@@ -333,7 +333,7 @@ button i {
     text-align: center;
 
     /* background-color: rgb(175, 58, 58); */
-    background:  url('../images/mebkgbldg.JPG') no-repeat center left/contain;
+    background:  url('../images/mebkgbldg.JPG') no-repeat center center/cover;
     color: rgb(53, 50, 50);
 
 }
