@@ -205,8 +205,16 @@ section h3::after {
 
 /* Services Section */
 .services {
-    background-color: #f1f5f9;
+    /* background-color: #f1f5f9; */
     background:  url('../images/services2.JPG') no-repeat center center/cover;
+    color: black;
+    /* text-align: center; */
+    /* padding: 200px 20px; */
+    /* display: flex; */
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+    min-height: 100vh;
 }
 
 .services ul {
@@ -233,6 +241,14 @@ section h3::after {
 /* Reviews Section */
 .reviews {
     background-color: white;
+    color: black;
+    text-align: center;
+    padding: 200px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
 }
 
 .reviews p {
