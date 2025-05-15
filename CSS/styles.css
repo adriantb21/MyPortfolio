@@ -206,7 +206,7 @@ section h3::after {
 /* Services Section */
 .services {
     background-color: #f1f5f9;
-    background:  url('../images/myservices2.JPG') no-repeat center center/contain;
+    background:  url('../images/myservices2.JPG') no-repeat center center/cover;
 }
 
 .services ul {
