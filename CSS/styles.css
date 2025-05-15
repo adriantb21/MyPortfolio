@@ -82,7 +82,7 @@ body {
 
 /* Hero Section */
 .hero {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/gadgets.jpg') no-repeat center center/cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/gadgets.jpg') no-repeat center center/contain;
     color: white;
     text-align: center;
     padding: 200px 20px;
@@ -179,7 +179,7 @@ section h3::after {
 /* About Section */ 
  .about {
     background-color: white;
-    background:  url('../images/melines-removebg-preview.png') no-repeat center left/contain;
+    background:  url('../images/melines-removebg-preview.png') no-repeat center center/contain;
     /* background:  url('../images/aboutMe.JPG') no-repeat center center/contain; */
 
     color: black;
@@ -206,7 +206,7 @@ section h3::after {
 /* Services Section */
 .services {
     background-color: #f1f5f9;
-    background:  url('../images/myservices2.JPG') no-repeat center center/cover;
+    background:  url('../images/myservices2.JPG') no-repeat center center/contain;
 }
 
 .services ul {
@@ -333,7 +333,7 @@ button i {
     text-align: center;
 
     /* background-color: rgb(175, 58, 58); */
-    background:  url('../images/mebkgbldg.JPG') no-repeat center center/cover;
+    background:  url('../images/mebkgbldg.JPG') no-repeat center center/contain;
     color: rgb(53, 50, 50);
 
 }
