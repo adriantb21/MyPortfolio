@@ -334,7 +334,15 @@ button i {
 
     /* background-color: rgb(175, 58, 58); */
     background:  url('../images/contacts1.JPG') no-repeat center center/cover;
-    color: rgb(53, 50, 50);
+    /* color: rgb(53, 50, 50); */
+    color: black;
+    text-align: center;
+    padding: 200px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
 
 }
 
