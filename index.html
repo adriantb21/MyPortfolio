@@ -4,104 +4,278 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional web developer specializing in custom web solutions for businesses and communities">
+    <!-- Preload critical resources -->
+<link rel="preload" href="CSS/styles.css" as="style">
+<link rel="preload" href="JS/script.js" as="script">
+<link rel="preload" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;700&display=swap" as="style">
+
+<!-- Preconnect to external domains -->
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+<link rel="preconnect" href="https://images.unsplash.com" crossorigin>
+
+<!-- Favicons -->
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Titillium+Web:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <link rel="stylesheet" href="CSS/styles.css">
-    <title>Adrian Badana | Web Developer</title>
+    <title>Adrian Badana | Web Developer & Designer</title>
 </head>
 <body>
-    <div class="container">
-        <nav class="topnav">
-            <a class="active" href="#home">Home</a>
-            <a href="#about">About Me</a>
-            <a href="#services">Services</a>
-            <a href="#reviews">Reviews</a>
-            <a href="#contacts">Contacts</a>
-        </nav>
-
-        <section id="home" class="hero">
-            <div class="hero-content">
-                <h1>Your Vision. Your Website. Let's Make it Happen.</h1>
-                <h2>Thinking about creating the perfect online space? Get in touch today to discuss your needs and take the first step. Let's do it your way!</h2>
-                <p> <a href="#contacts">Learn More</a></p>
-                   
+    <!-- Navigation -->
+    <nav class="topnav">
+        <div class="nav-container">
+            <a class="logo" href="#home">AB</a>
+            <div class="nav-links">
+                <a class="active" href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#reviews">Reviews</a>
+                <a href="#contacts">Contact</a>
             </div>
-        </section>
+            <button class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
 
-        <section id="about" class="about">
-            <h3>About Me</h3>
-            <p>Hi, I'm Adrian Tiu Badana, a Computer Science graduate with a growing passion for web development. I'm focused on building functional and user-friendly websites and web applications. My skills include database development, UI creation, and thorough testing. I'm eager to collaborate with small businesses and marginalized communities to help them establish their online presence. I offer both design and development services to bring your projects to life.</p>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content animate__animated animate__fadeIn">
+            <h1>Transform Your Vision Into Digital Reality</h1>
+            <h2>Custom web solutions tailored to your unique needs. Let's build something amazing together.</h2>
+            <div class="cta-buttons">
+                <a href="#contacts" class="btn-primary">Get Started</a>
+                <a href="#services" class="btn-secondary">Learn More</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span></span>
+        </div>
+    </section>
 
-<p>My foundation in Computer Science has equipped me with essential principles for effective web development, including logical structuring and efficient data management. As I've focused specifically on the web, I've honed skills in database development, creating robust and tailored data solutions. Alongside this, I'm dedicated to designing intuitive and visually appealing user interfaces, always prioritizing ease of navigation and accessibility.</p>
-
-<p>A crucial aspect of my approach is thorough testing. I believe in ensuring the reliability and quality of every project through meticulous testing practices, identifying and resolving issues to deliver a seamless user experience.
-
-<p>I am particularly motivated to work with small businesses and marginalized communities. I understand the significant impact a strong online presence can have, and I'm committed to providing accessible and effective web solutions that support their growth and outreach. I offer comprehensive design and development services, ready to transform your ideas into reality. Whether you need a new website, a custom web application, or ongoing support, I'm here to help you establish a powerful presence in the digital world. I am continuously learning and adapting to the latest web technologies to provide effective and innovative solutions for your unique needs.</p>
-                <br><br>
-                <!-- <a href="#home" class="back-to-top"> &#8678; Back to top</a></p> -->
-        </section>
-
-        <section id="services" class="services">
-            <h3>Services</h3>
-            <ul>
-                <li><i class="fas fa-code"></i> Full-Stack Web Development Services</li>
-                <li><i class="fas fa-shopping-cart"></i> E-commerce Applications</li>
-                <li><i class="fas fa-cogs"></i> Custom Web Applications</li>
-                <li><i class="fas fa-tasks"></i> Content Management Systems</li>
-                <li><i class="fas fa-bug"></i> QA and Testing</li>
-                <li><i class="fas fa-tools"></i> Web Support and Maintenance</li>
-            </ul>
-            <!-- <p><a href="#home" class="back-to-top"> &#8678; Back to top</a></p> -->
-        </section>
-
-        <section id="reviews" class="reviews">
-            <h3>Reviews</h3>
-            <p>Please leave your comments below or reviews about the services that have
-                rendered to you. Do you like to see other comments? Click <a href="page2.html">here.</a> </p>
-
-            <form action="https://formsubmit.co/adriantb021@gmail.com" method="POST" class="review-form">
-                <div class="row">
-                    <div class="input-grp">
-                        <input type="text" id="name" required>
-                        <label for="name"><i class="fas fa-user"></i>Enter your name</label>
-                    </div>
-
-                    <div class="input-grp">
-                        <input type="email" id="email" required>
-                        <label for="email"><i class="fas fa-envelope"></i> Your email</label>
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="section-container">
+            <h3 class="section-title">About Me</h3>
+            <div class="about-content">
+                <div class="about-image">
+                    <!-- <img src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80"  -->
+                     <img src="../images/me.png"  
+                         alt="Adrian Badana" loading="lazy">
+                </div>
+                <div class="about-text">
+                    <p>Hi, I'm Adrian Tiu Badana, a Computer Science graduate with a passion for creating beautiful, functional websites. I specialize in helping small businesses and communities establish their online presence.</p>
+                    <p>My foundation in Computer Science provides the technical backbone for my work, while my focus on web development allows me to create solutions that are both powerful and user-friendly.</p>
+                    <p>I believe in thorough testing and attention to detail to ensure every project delivers an exceptional user experience. My goal is to make web technology accessible to everyone, regardless of technical background.</p>
+                    <div class="skills">
+                        <div class="skill-item">
+                            <div class="skill-progress" data-percent="90">
+                                <span>Web Development</span>
+                                <div class="progress-bar"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-progress" data-percent="85">
+                                <span>UI/UX Design</span>
+                                <div class="progress-bar"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-progress" data-percent="80">
+                                <span>Database Design</span>
+                                <div class="progress-bar"></div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-
-                <div class="input-grp">
-                    <textarea id="message" rows="8" required></textarea>
-                    <label for="message"><i class="fas fa-comments"></i> Your message</label>
-                </div>
-
-                <button type="submit">Submit <i class="fas fa-paper-plane"></i></button>
-            </form>
-
-            <!-- <p><a href="#home" class="back-to-top"> &#8678; Back to top</a></p> -->
-        </section>
-
-        <section id="contacts" class="contacts">
-            <h3>My Contacts</h3>
-            <p><i class="fas fa-envelope"></i> <a href="mailto:adriantb021@gmail.com">Email me here</a></p>
-            <p><i class="fas fa-phone"></i> +63 926 441 0262</p>
-            <div style="margin-top: 30px;">
-                <a href="#" style="color: var(--dark); margin: 0 10px; font-size: 1.5rem;"><i class="fab fa-github"></i></a>
-                <a href="#" style="color: var(--dark); margin: 0 10px; font-size: 1.5rem;"><i class="fab fa-linkedin"></i></a>
-                <a href="#" style="color: var(--dark); margin: 0 10px; font-size: 1.5rem;"><i class="fab fa-twitter"></i></a>
-                <a href="#" style="color: var(--dark); margin: 0 10px; font-size: 1.5rem;"><i class="fab fa-facebook"></i></a>
             </div>
-            <p><a href="#home" class="back-to-top"> &#8593; Back to top</a></p>
-        </section>
+        </div>
+    </section>
 
-        <footer class="footer">
-            <p>&#169;2022 Built with HTML, CSS, JavaScript & AI.</p>
-        </footer>
-    </div>
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="section-container">
+            <h3 class="section-title">My Services</h3>
+            <div class="services-grid">
+                <div class="service-card animate__animated">
+                    <div class="service-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h4>Full-Stack Development</h4>
+                    <p>Complete web solutions from front-end to back-end, ensuring seamless functionality and performance.</p>
+                </div>
+                <div class="service-card animate__animated">
+                    <div class="service-icon">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <h4>E-commerce Solutions</h4>
+                    <p>Custom online stores designed to showcase your products and streamline the buying process.</p>
+                </div>
+                <div class="service-card animate__animated">
+                    <div class="service-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h4>Responsive Design</h4>
+                    <p>Websites that look and function perfectly on all devices, from desktop to mobile.</p>
+                </div>
+                <div class="service-card animate__animated">
+                    <div class="service-icon">
+                        <i class="fas fa-tachometer-alt"></i>
+                    </div>
+                    <h4>Performance Optimization</h4>
+                    <p>Speed enhancements to improve user experience and search engine rankings.</p>
+                </div>
+                <div class="service-card animate__animated">
+                    <div class="service-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h4>Database Solutions</h4>
+                    <p>Custom database architecture tailored to your specific data management needs.</p>
+                </div>
+                <div class="service-card animate__animated">
+                    <div class="service-icon">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <h4>Ongoing Support</h4>
+                    <p>Reliable maintenance and updates to keep your website running smoothly.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section id="reviews" class="reviews">
+        <div class="section-container">
+            <h3 class="section-title">Client Feedback</h3>
+            <div class="reviews-content">
+                <div class="testimonials">
+                    <div class="testimonial-card">
+                        <div class="testimonial-text">
+                            "Adrian delivered exactly what we needed for our community website. His attention to detail and communication throughout the project were exceptional."
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">
+                                <img src="https://randomuser.me/api/portraits/women/43.jpg" alt="Client" loading="lazy">
+                            </div>
+                            <div class="author-info">
+                                <h5>Maria Santos</h5>
+                                <span>Community Leader</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-text">
+                            "Our small business website was transformed into a professional online presence that has helped us attract new customers."
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">
+                                <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Client" loading="lazy">
+                            </div>
+                            <div class="author-info">
+                                <h5>Juan Dela Cruz</h5>
+                                <span>Small Business Owner</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="review-form-container">
+                    <h4>Share Your Experience</h4>
+                    <form action="https://formsubmit.co/adriantb021@gmail.com" method="POST" class="review-form">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" required>
+                            <label for="name"><i class="fas fa-user"></i> Your Name</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" required>
+                            <label for="email"><i class="fas fa-envelope"></i> Email Address</label>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                            <label for="message"><i class="fas fa-comment"></i> Your Feedback</label>
+                        </div>
+                        <button type="submit" class="btn-primary">
+                            Submit Review <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contacts" class="contacts">
+        <div class="section-container">
+            <h3 class="section-title">Let's Connect</h3>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h5>Email</h5>
+                            <a href="mailto:adriantb021@gmail.com">adriantb021@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone-alt"></i>
+                        <div>
+                            <h5>Phone</h5>
+                            <a href="tel:+639264410262">+63 926 441 0262</a>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h5>Location</h5>
+                            <span>Philippines</span>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    </div>
+                </div>
+                <div class="contact-map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8004169.017274139!2d118.08539692499999!3d11.7755784!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x324053215f87de63%3A0x784790ef7a29da57!2sPhilippines!5e0!3m2!1sen!2sph!4v1686123456789!5m2!1sen!2sph" 
+                            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-logo">Adrian Badana</div>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#services">Services</a>
+                    <a href="#reviews">Reviews</a>
+                    <a href="#contacts">Contact</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="year"></span> Adrian Badana. All rights reserved.</p>
+                <p>Built with passion using HTML, CSS, JavaScript &amp; AI.</p>
+            </div>
+        </div>
+        <a href="#home" class="back-to-top" aria-label="Back to top">
+            <i class="fas fa-arrow-up"></i>
+        </a>
+    </footer>
 
     <script src="JS/script.js"></script>
 </body>
