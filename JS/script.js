@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
     // Set current year in footer
-    // document.getElementById('year').textContent = new Date().getFullYear();
-    document.getElementById('year').textContent = 2022;
+    document.getElementById('year').textContent = new Date().getFullYear();
+    // document.getElementById('year').textContent = 2022;
 
 
     // Mobile menu toggle
