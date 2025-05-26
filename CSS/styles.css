@@ -961,4 +961,43 @@ section {
         color: var(--medium-gray);
     }
 }
+/* Pulse animation for CTA buttons */
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 0 0 rgba(67, 97, 238, 0.7);
+    }
+    70% {
+        box-shadow: 0 0 0 10px rgba(67, 97, 238, 0);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(67, 97, 238, 0);
+    }
+}
+
+.btn-primary {
+    animation: pulse 2s infinite;
+}
+
+/* Hover effects for cards */
+.service-card:hover .service-icon {
+    transform: rotateY(180deg);
+    background: linear-gradient(135deg, var(--secondary), var(--accent));
+}
+
+/* Floating animation for hero elements */
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.hero-content {
+    animation: float 6s ease-in-out infinite;
+}
 }
