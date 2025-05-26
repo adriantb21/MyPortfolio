@@ -931,4 +931,34 @@ section {
 .hero-content {
     animation: float 6s ease-in-out infinite;
 }
+@media (prefers-color-scheme: dark) {
+    :root {
+        --dark: #f8f9fa;
+        --white: #1a1a2e;
+        --light-gray: #16213e;
+        --medium-gray: #a0a4b8;
+        --dark-gray: #f8f9fa;
+    }
+    
+    body {
+        color: var(--dark);
+        background-color: var(--white);
+    }
+    
+    .services {
+        background-color: var(--dark-gray);
+    }
+    
+    .service-card,
+    .testimonial-card,
+    .review-form-container {
+        background-color: var(--light-gray);
+        color: var(--dark);
+    }
+    
+    .service-card p,
+    .testimonial-text {
+        color: var(--medium-gray);
+    }
+}
 }
