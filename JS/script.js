@@ -86,10 +86,8 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 
-    // Rest of your code remains the same...
     // Animate service cards on scroll
     const animateOnScroll = function() {
-        /* ... existing animateOnScroll code ... */
     };
 
     // Initialize animations on load
@@ -99,7 +97,6 @@ document.addEventListener('DOMContentLoaded', function() {
     // Form submission handling
     const reviewForm = document.querySelector('.review-form');
     if (reviewForm) {
-        /* ... existing form handling code ... */
     }
 
     // Intersection Observer
@@ -107,14 +104,11 @@ document.addEventListener('DOMContentLoaded', function() {
         threshold: 0.1
     };
     const observer = new IntersectionObserver(function(entries) {
-        /* ... existing observer code ... */
     }, observerOptions);
 
     // Skill progress animation
     const skillProgressBars = document.querySelectorAll('.progress-bar');
-    /* ... existing skill progress code ... */
 
     // Typewriter effect
     const heroSubtitle = document.querySelector('.hero h2');
-    /* ... existing typewriter code ... */
 });
