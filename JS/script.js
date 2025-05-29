@@ -40,13 +40,41 @@ document.addEventListener('DOMContentLoaded', function() {
                 });
             }
             
-            // Update active nav link
-            document.querySelectorAll('.nav-links a').forEach(link => {
-                link.classList.remove('active');
-            });
-            this.classList.add('active');
-        });
+    //         // Update active nav link
+    //         document.querySelectorAll('.nav-links a').forEach(link => {
+    //             link.classList.remove('active');
+    //         });
+    //         this.classList.add('active');
+    //     });
+    // });
+
+    // Improved active nav management
+function updateActiveNav() {
+    const sections = document.querySelectorAll('section');
+    const navLinks = document.querySelectorAll('.nav-links a');
+    
+    let current = '';
+    
+    sections.forEach(section => {
+        const sectionTop = section.offsetTop;
+        const sectionHeight = section.clientHeight;
+        
+        if (window.scrollY >= (sectionTop - 150)) {
+            current = section.getAttribute('id');
+        }
     });
+    
+    navLinks.forEach(link => {
+        link.classList.remove('active');
+        if (link.getAttribute('href') === `#${current}`) {
+            link.classList.add('active');
+        }
+    });
+}
+
+// Run on scroll and load
+window.addEventListener('scroll', updateActiveNav);
+window.addEventListener('load', updateActiveNav);
 
     // Show/hide back to top button
     const backToTopButton = document.querySelector('.back-to-top');
