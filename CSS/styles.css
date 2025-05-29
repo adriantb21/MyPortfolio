@@ -223,7 +223,7 @@ img {
     background-color: var(--primary);
     color: var(--white);
     box-shadow: 0 4px 14px rgba(67, 97, 238, 0.4);
-    animation: pulse 1.2s infinite;
+    animation: pulse 1.5s infinite;
 }
 
 .btn-primary:hover {
@@ -236,7 +236,7 @@ img {
     background-color: transparent;
     color: var(--white);
     border: 2px solid rgba(255,255,255,0.3);
-    animation: pulse 5s infinite;
+    /* animation: pulse 5s infinite; */
 }
 
 .btn-secondary:hover {
