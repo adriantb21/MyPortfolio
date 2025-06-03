@@ -94,20 +94,12 @@ img {
     padding: 15px 20px;
 }
 
-/* .logo {
-    font-family: 'Playfair Display', serif;
-    font-size: 1.8rem;
-    font-weight: 700;
-    color: var(--primary);
-    padding: 5px 10px;
-    border: 2px solid var(--primary);
-    border-radius: var(--radius-sm);
-} */
 
 .logo {
-    display: inline-block; /* Changed from default */
-    padding: 0; /* Remove padding if no longer needed */
-    border: none; /* Remove border if no longer needed */
+    display: inline-block; 
+    padding: 0; 
+    border: none; 
+    padding: 5px 10px;
 }
 
 .logo-img {
