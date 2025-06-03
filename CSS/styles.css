@@ -94,7 +94,7 @@ img {
     padding: 15px 20px;
 }
 
-.logo {
+/* .logo {
     font-family: 'Playfair Display', serif;
     font-size: 1.8rem;
     font-weight: 700;
@@ -102,6 +102,31 @@ img {
     padding: 5px 10px;
     border: 2px solid var(--primary);
     border-radius: var(--radius-sm);
+} */
+
+.logo {
+    display: inline-block; /* Changed from default */
+    padding: 0; /* Remove padding if no longer needed */
+    border: none; /* Remove border if no longer needed */
+}
+
+.logo-img {
+    height: 40px; /* Adjust to your logo's proportions */
+    width: auto; /* Maintain aspect ratio */
+    transition: transform 0.3s ease;
+}
+
+.logo:hover .logo-img {
+    transform: scale(1.05); /* Optional hover effect */
+}
+
+/* For retina displays */
+@media 
+(-webkit-min-device-pixel-ratio: 2), 
+(min-resolution: 192dpi) { 
+    .logo-img {
+        height: 50px; /* Slightly larger for retina */
+    }
 }
 
 .nav-links {
