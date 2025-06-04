@@ -97,7 +97,7 @@ img {
 
 .logo {
     display: inline-block; 
-    padding: 0; 
+    /* padding: 0;  */
     border: none; 
     padding: 5px 10px;
 }
