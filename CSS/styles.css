@@ -771,6 +771,38 @@ section {
     margin-bottom: 10px;
 }
 
+.copyright-logo {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 4px;
+}
+
+.copyright-logo img {
+    height: 1em; /* Matches text height */
+    width: auto;
+    opacity: 0.9;
+    transition: opacity 0.3s ease;
+}
+
+.copyright-logo img:hover {
+    opacity: 1;
+}
+
+.copyright-logo img {
+    transform: translateY(0);
+    transition: transform 0.3s ease;
+}
+.copyright-logo:hover img {
+    transform: translateY(-2px);
+}
+
+/* Dark mode adaptation */
+@media (prefers-color-scheme: dark) {
+    .copyright-logo img {
+        filter: brightness(0) invert(1);
+    }
+}
+
 .back-to-top {
     position: fixed;
     bottom: 30px;
