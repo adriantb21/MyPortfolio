@@ -643,10 +643,6 @@ section {
     margin-top: 40px;
 }
 
-.social-links .fa-x-twitter { /* New X icon class */
-    background-color: black; X uses black
-    color: black !important;
-}
 
 .social-links a {
     width: 40px;
