@@ -138,10 +138,13 @@ section {
 .logo-img {
     height: 40px;
     width: auto;
-    transition: transform 0.3s ease;
+    /* transition: transform 0.3s ease; */
+    border-radius: 10px;
+
 }
 
 .logo:hover .logo-img {
+    opacity: 1;
     transform: scale(1.05);
 }
 
@@ -702,6 +705,7 @@ section {
     width: auto;
     opacity: 0.9;
     transition: opacity 0.3s ease;
+    border-radius: 10px;
 }
 
 .footer-logo img:hover {
@@ -746,6 +750,7 @@ section {
     width: auto;
     opacity: 0.9;
     transition: opacity 0.3s ease;
+    border-radius: 4px;
 }
 
 .copyright-logo img:hover {
